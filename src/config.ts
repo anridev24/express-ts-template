@@ -3,6 +3,7 @@ import signale from 'signale';
 
 const config = {
   EXAMPLE_KEY: process.env.EXAMPLE_KEY as string,
+  PORT: process.env.PORT as string,
 };
 
 for (const key in config) {
